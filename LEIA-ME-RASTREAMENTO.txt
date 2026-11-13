@@ -1,0 +1,21 @@
+NATAL MÁGICO — RASTREAMENTO
+
+Meta Pixel configurado: 1647248543411988 (confirme se ainda é o seu Pixel atual).
+Eventos: PageView, ViewContent e InitiateCheckout.
+O InitiateCheckout é disparado ao clicar em qualquer botão de compra.
+UTMs e parâmetros: utm_source, utm_medium, utm_campaign, utm_content, utm_term, utm_id, fbclid, gclid, gbraid, wbraid, ttclid, src, sck e xcod.
+Os parâmetros são guardados na sessão do navegador e encaminhados ao checkout Cakto.
+
+IMPORTANTE — UTMIFY E PURCHASE
+O rastreamento de visitas e cliques está preparado. Para atribuir vendas aprovadas na UTMify, conecte a conta Cakto à sua conta UTMify e configure o Pixel de Otimização/webhook conforme as instruções da sua conta. O script personalizado fornecido pela UTMify, caso exigido, ainda precisa ser inserido; não é possível inventar um identificador de conta.
+Não há Purchase disparado na landing page para evitar falsas vendas.
+
+TESTE
+1. Publique todos os arquivos da pasta na mesma raiz do site.
+2. Acesse ?utm_source=facebook&utm_medium=paid_social&utm_campaign=teste&utm_content=criativo01&utm_term=feed
+3. Clique em comprar e confira os parâmetros na URL de pay.cakto.com.br.
+4. Use Meta Pixel Helper/Testar eventos para verificar PageView, ViewContent e InitiateCheckout.
+5. Confirme em Cakto e UTMify a integração de venda aprovada com uma transação de teste autorizada.
+6. Não instale o mesmo Pixel novamente por outro script sem verificar duplicação.
+
+Script de rastreamento fornecido pelo usuário inserido no HEAD. Confirme no painel UTMify e Cakto que a integração de vendas está ativa. O script é ofuscado e carrega código remoto; sua origem e comportamento não foram auditados.
